@@ -1,0 +1,66 @@
+site_name: 'OptumRx BEX'
+nav:
+  - Home:
+  - Home2:
+    - Home: home/home.md
+    - Home1: home/home.md
+    - Description: /index.md
+    - Documentation: documentation/documentation.md
+    - Documentation: documentation/documentation.md
+    - Documentation: documentation/documentation.md
+  - Documentation:
+    - Infusions: 
+      - IG/Hemo: home/home.md
+      - Acute: home/home.md
+    - Speciality: 
+      - Speciality Sales: home/home.md
+      - Inside Sales: home/home.md
+    - CMP: documentation/documentation.md
+  - Getting Started:
+  - testing:
+    - Getting Started: getting-started/getting-started.md
+    - Documentation: documentation/documentation.md
+    - Documentation: documentation/documentation.md
+  - Support:
+    - Support:
+    - Services from Salesforce: Overview/Support.md
+    - UHG Impact Communicator: Overview/ImpactCommunicator.md
+    - What is UHG SELA?: Overview/SELA.md
+    - Our SF COE Team: Overview/Team.md
+    - Support: support/support.md
+    - Documentation: documentation/documentation.md
+    - Test:
+      - Documentation: documentation/documentation.md
+      - Documentation: documentation/documentation.md
+      - Documentation: documentation/documentation.md
+      
+
+repo_name: 'OptumRx-BEX'
+repo_url: 'https://github.optum.com/pkuma439/OptumRx-BEX'
+edit_uri: 'blob/master/docs'
+copyright: 'Copyright &copy; 2022 Optum'
+theme:
+  name: material
+  palette:
+    primary: 'optum orange'
+    accent: 'optum orange'
+  features:
+    - navigation.instant
+    - navigation.tabs
+  custom_dir: 'theme'
+  favicon: img/favicon.ico
+  logo: img/optum-white.png
+  font:
+    text: Arial
+    code: Roboto Mono
+extra_css:
+  - styles/optum-theme.css
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - footnotes
+  - toc:
+      permalink: true
+  - codehilite:
+      linenums: true
